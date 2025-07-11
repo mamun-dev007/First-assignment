@@ -46,6 +46,9 @@ body{
     padding: 12px 36px;
     border-radius:10px ;
 }
+.logo-btn:hover{
+ background-color: #0905da;
+}
 .banner-section{
     padding: 0 0 100px;
 }
@@ -64,7 +67,9 @@ body{
    padding: 12px 36px;
    border-radius: 10px;
    color: white;
-   
+}
+.banner-btn:hover{
+ background-color: #0905da;
 }
 /* action-section */
 .action-section{
@@ -93,6 +98,9 @@ body{
     border: none;
     border-radius: 10px;
     color: white;
+}
+.action-btn:hover{
+ background-color: #0905da;
 }
 .action-image img{
     border-radius: 48px;
@@ -199,6 +207,9 @@ body{
     padding: 10px 25px;
     color: white;
 }
+.focus-btn:hover{
+ background-color: #0905da;
+}
 .focus-img{
     border-radius: 50px;
 }
@@ -241,6 +252,7 @@ body{
     border: none;
     border-radius: 8px;
     width: 100%;
+    opacity: 90%;
     box-shadow: 0 0 10px 1px rgb(211, 211, 211);   
 }
 .btn{
@@ -253,8 +265,12 @@ body{
     border-radius: 8px;
     background-color: #4E47FF;
 }
+.btn:hover{
+ background-color: #0905da;
+}
 .footer-area{
     background-color: #e1dfe1;
+    padding-bottom: 100px;
 }
 .footer-head{
     text-align: center;
@@ -273,4 +289,19 @@ body{
    line-height: 20px;
    opacity: 60%;
 }
-.
+.area-link{
+    text-decoration: none;
+    line-height: 60px;
+    margin-right: 30px;
+    color: #000000;
+    opacity: 50%;
+    cursor: pointer;
+    justify-content: space-between;
+    
+}
+.area-link:hover{
+    color: white;
+    background-color: #0800ff;
+    padding: 5px 0;
+    
+}
