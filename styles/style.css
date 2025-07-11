@@ -133,6 +133,7 @@ body{
     font-size: 42px;
     color: #252432;
     text-align: center;
+    
 }
 .review-heading{
     display: flex;
@@ -146,7 +147,7 @@ body{
     background-color: #faf8fb;
     padding: 40px;
     border-radius: 10px;
-    
+    box-shadow: 0px 0px 20px 1px  rgb(222, 221, 221)
 }
 .users-description{
     font-size: 20px;
@@ -171,4 +172,105 @@ body{
     opacity: 40%;
     font-size: 15px;
 }
+.focus-section{
+    width: 80%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
+.focus-title{
+    text-align: center;
+   
+}
+.focus-description{
+    font-size: 10px;
+    opacity: 50%;
+    
+}
+.focus-btn{
+    display: flex;
+    margin: 40px auto;
+    background-color: #4E47FF;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+}
+.focus-img{
+    border-radius: 50px;
+}
+.contact{
+  width: 80%;
+  margin: 0 auto;
+}
+.contact-heading{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.contact-title{
+    font-size: 97px;
+    margin: auto 0;
+    
+}
+.users-form label{
+  font-size: 18px;
+  line-height: 50px ;
+  padding: 40px 0;
+  width: 100%;
+  
+  
+}
+.users-form input{
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgb(211, 211, 211);
+}
+ input::placeholder,textarea::placeholder{
+    font-size: 3px;
+}
+.users-form textarea{
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 0 10px 1px rgb(211, 211, 211);   
+}
+.btn{
+    font-size: 16px;
+    padding: 15px;
+    margin: 10px auto;
+    border: none;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #4E47FF;
+}
+.footer-area{
+    background-color: #e1dfe1;
+}
+.footer-head{
+    text-align: center;
+    padding-top: 104px;
+    line-height: 10px;
 
+}
+.footer-logo{
+   color:#4E47FF;
+   font-size: 100px;
+}
+.footer-subtitle{
+   width: 30%;
+   text-align: center;
+   margin: 0 auto;
+   line-height: 20px;
+   opacity: 60%;
+}
+.
